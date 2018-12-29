@@ -1,0 +1,29 @@
+body,html {
+    height: 100%;
+    background-color:#87ba91;
+}
+
+.main{
+    
+   
+
+}
+
+.center{
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+    min-height: 600px;
+
+}
+img{
+    align: right;
+    display: block;
+    
+}
+
+#left{
+    align: left;
+
+}
