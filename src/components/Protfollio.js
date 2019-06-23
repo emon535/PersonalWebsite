@@ -30,10 +30,16 @@ class Protfollio extends Component {
         return (
             data.map((eachWork, index) => {
                 let img = eachWork.screenshots[0]
-                let description = eachWork.description.substr(0, 100) + " ..."
+                let description = eachWork.description.substr(0, 200) + " ..."
+
+                // const description = eachWork.description && eachWork.description.length >= 100 ?
+                //     eachWork.description.substr(0, 100) + "..."
+                //     : eachWork.description;
+
+
                 return (
                     <Col sm={4} className="work-item-col">
-                        <Card body className="work-item-card ">
+                        <Card body className="work-item-card shadow-sm p-3" >
                             <CardHeader className="card-header">
                                 {eachWork.title}
                                 {this._getTags(this.state.work_data)}
@@ -63,11 +69,12 @@ class Protfollio extends Component {
         return (
             < React.Fragment >
                 <div className="work-block">
-                    <Card body>
-                        <CardTitle>
+                    <Row>
+                        <Col>
                             <h3> Projects Showcase</h3>
-                        </CardTitle>
-                    </Card>
+                            <hr></hr>
+                        </Col>
+                    </Row>
                     <Row>
                         {this._getWorks(this.state.work_data)}
                     </Row>
