@@ -1,0 +1,24 @@
+.work-item-card {
+    background-color: rgb(250, 250, 250) !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: rgb(210, 211, 211) !important;
+    min-height: 70vh !important;
+}
+
+.work-item-col {
+    padding: 1em;
+    
+}
+
+.see-button {
+    color: rgb(255, 255, 255) !important;
+    background: rgb(57, 20, 116) !important;
+    border-radius: 0px !important;
+}
+.work-block {
+    margin: 5em 10em 1em 10em;
+}
+
+.card-footer {
+    background: rgb(250, 250, 250) !important; 
+}
