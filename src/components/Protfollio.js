@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, CardHeader, CardFooter, CardBody, Col, Card, CardTitle, CardText, Button } from 'reactstrap'
 import data from './../resources/data.json'
 import './Protfollio.css'
-
+import image from './../images/prot1.jpeg'
 class Protfollio extends Component {
 
     constructor(props) {
@@ -13,22 +13,43 @@ class Protfollio extends Component {
         }
     }
 
+    _getTags(data) {
+        return (
+            data.map((eachwork, index) => {
+                eachwork.tags.map((eachtags, index) => {
+                    return (
+                        <p>{eachtags}</p>
+                    )
+
+                })
+            })
+        )
+    }
+
     _getWorks(data) {
         return (
-            this.state.work_data.map((eachWork, index) => {
+            data.map((eachWork, index) => {
+                let img = eachWork.screenshots[0]
+                let description = eachWork.description.substr(0, 100) + " ..."
                 return (
-                    <Col sm={6} className="work-item-col">
+                    <Col sm={4} className="work-item-col">
                         <Card body className="work-item-card ">
-                            <CardHeader>
+                            <CardHeader className="card-header">
                                 {eachWork.title}
+                                {this._getTags(this.state.work_data)}
                             </CardHeader>
                             <CardBody>
+                                <img className="work-image" src="https://source.unsplash.com/300x150/?it,code"></img>
+                                <hr></hr>
+                                <CardText className="work-description" dangerouslySetInnerHTML={{ __html: description }} />
 
-                                <CardText numberOfLines={3}>{eachWork.description}</CardText>
+
 
                             </CardBody>
                             <CardFooter className="card-footer">
-                                <Button className="see-button">See more</Button>
+
+                                <Button className="see-button"><span>See more</span></Button>
+
                             </CardFooter>
                         </Card>
                     </Col >
@@ -48,7 +69,7 @@ class Protfollio extends Component {
                         </CardTitle>
                     </Card>
                     <Row>
-                        {this._getWorks(data)}
+                        {this._getWorks(this.state.work_data)}
                     </Row>
                 </div>
 

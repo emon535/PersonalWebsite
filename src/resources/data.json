@@ -3,7 +3,7 @@
         {
             "title": "NUSMods",
             "screenshots": [
-                "images/nusmods-1.jpg",
+                "/src/images/phoyo_circle.png",
                 "images/nusmods-2.jpg"
             ],
             "description": "<p><strong><a href='http://nusmods.com' target='_blank'>NUSMods</a></strong> provides students with a better way to plan their school timetables with a user-friendly timetable builder and also serves to be a complete knowledge bank of NUS modules by providing useful module-related information such as archived NUS CORS bidding statistics and community-driven module reviews and discussions.</p>",
