@@ -1,6 +1,6 @@
 .about-me {
     background: black;
-    max-height: 60vh;
+    max-height: 100%;
     padding: 2em;
 }
 
@@ -12,4 +12,29 @@
     color: white;
     margin: 2em;
     text-align: left;
+}
+
+.social {
+    padding: 1em;
+}
+
+.social a {
+    color: white;
+}
+
+.social a:hover {
+    color: rgb(136, 135, 138);
+}
+.icons{
+    margin-left: 2em;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.icons-heading {
+    margin-top: 2em;
+}
+
+.about-me-heading {
+    color: aliceblue;
 }
