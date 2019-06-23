@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Row, CardHeader, CardFooter, CardBody, Col, Card, CardTitle, CardText, Button } from 'reactstrap'
-import data from './../resources/data.json'
+import data from './../../resources/data.json'
 import './Protfollio.css'
-import image from './../images/prot1.jpeg'
+import image from './../../images/prot1.jpeg'
+
 class Protfollio extends Component {
 
     constructor(props) {
@@ -18,7 +19,7 @@ class Protfollio extends Component {
             data.map((eachwork, index) => {
                 eachwork.tags.map((eachtags, index) => {
                     return (
-                        <p>{eachtags}</p>
+                        <h1>{eachtags}</h1>
                     )
 
                 })
@@ -32,7 +33,7 @@ class Protfollio extends Component {
                 let img = eachWork.screenshots[0]
                 let description = eachWork.description.substr(0, 200) + " ..."
 
-                // const description = eachWork.description && eachWork.description.length >= 100 ?
+                // const description = eachWork.description && eachWork.description.length >= 200 ?
                 //     eachWork.description.substr(0, 100) + "..."
                 //     : eachWork.description;
 
