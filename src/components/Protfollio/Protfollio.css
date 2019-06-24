@@ -10,7 +10,7 @@
 
 .work-description  {
   line-height: 1.5em;
-  height: 4.5em;
+  height: 6em;
   overflow: hidden;
   text-align: left;
 }
@@ -74,4 +74,11 @@
 
 .work-image {
     width: 100%;
+}
+
+.tag{
+  border-color: black;
+  padding: 2px;
+  margin: 2px;
+  
 }

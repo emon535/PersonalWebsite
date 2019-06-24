@@ -16,13 +16,10 @@ class Protfollio extends Component {
 
     _getTags(data) {
         return (
-            data.map((eachwork, index) => {
-                eachwork.tags.map((eachtags, index) => {
-                    return (
-                        <h1>{eachtags}</h1>
-                    )
-
-                })
+            data.tags.map(tag => {
+                return (
+                    <div className="tag">{tag} </div>
+                )
             })
         )
     }
@@ -31,7 +28,7 @@ class Protfollio extends Component {
         return (
             data.map((eachWork, index) => {
                 let img = eachWork.screenshots[0]
-                let description = eachWork.description.substr(0, 200) + " ..."
+                let description = eachWork.description.substr(0, 300) + " ..."
 
                 // const description = eachWork.description && eachWork.description.length >= 200 ?
                 //     eachWork.description.substr(0, 100) + "..."
@@ -39,18 +36,20 @@ class Protfollio extends Component {
 
 
                 return (
-                    <Col sm={4} className="work-item-col">
+                    <Col sm={6} className="work-item-col">
                         <Card body className="work-item-card shadow-sm p-3" >
                             <CardHeader className="card-header">
                                 {eachWork.title}
-                                {this._getTags(this.state.work_data)}
+
                             </CardHeader>
                             <CardBody>
+
                                 <img className="work-image" src="https://source.unsplash.com/300x150/?it,code"></img>
                                 <hr></hr>
+
                                 <CardText className="work-description" dangerouslySetInnerHTML={{ __html: description }} />
 
-
+                                {this._getTags(eachWork)}
 
                             </CardBody>
                             <CardFooter className="card-footer">

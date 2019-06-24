@@ -17,7 +17,7 @@ function App() {
           <br></br>
         <small>Download the <a href={cv}>CV </a></small>
         <Protfollio />
-        <About/>
+        <About />
       </div>
     </div >
   );
