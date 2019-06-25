@@ -15,7 +15,7 @@ function App() {
         <br></br>
         Welcome <code>to</code> my Site.
           <br></br>
-        <small>Download the <a href={cv}>CV </a></small>
+        <small>Download the <a href={cv}>CV</a></small>
         <Protfollio />
         <About />
       </div>
