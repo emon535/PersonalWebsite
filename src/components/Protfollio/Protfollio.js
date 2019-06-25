@@ -25,25 +25,20 @@ class Protfollio extends Component {
 
   _getTags(data) {
     return data.tags.map(tag => {
-      return (
-        <a className="tag">
-          <span>{tag}</span>
-        </a>
-      );
+      return <div className="tag">{tag} </div>;
     });
   }
 
   _getWorks(data) {
     return data.map((eachWork, index) => {
       let img = eachWork.screenshots[0];
-      let description = eachWork.description.substr(0, 400);
+      let description = eachWork.description.substr(0, 300) + " ...";
 
       // const description = eachWork.description && eachWork.description.length >= 200 ?
       //     eachWork.description.substr(0, 100) + "..."
       //     : eachWork.description;
-
       return (
-        <Col sm={4} className="work-item-col">
+        <Col sm={3} className="work-item-col">
           <Card body className="work-item-card shadow-sm p-3">
             <CardHeader className="card-header">{eachWork.title}</CardHeader>
             <CardBody>
@@ -51,8 +46,7 @@ class Protfollio extends Component {
                 className="work-image"
                 src="https://source.unsplash.com/300x150/?it,code"
               />
-              <br />
-              <br />
+              <hr />
               <CardText
                 className="work-description"
                 dangerouslySetInnerHTML={{ __html: description }}
@@ -61,7 +55,7 @@ class Protfollio extends Component {
             </CardBody>
             <CardFooter className="card-footer">
               <Button className="see-button">
-                <span>See more</span>
+                <span>Visit</span>
               </Button>
             </CardFooter>
           </Card>
@@ -76,7 +70,7 @@ class Protfollio extends Component {
         <div className="work-block">
           <Row>
             <Col>
-              <h3> Projects Showcase</h3>
+              <h3>My Works</h3>
               <hr />
             </Col>
           </Row>
