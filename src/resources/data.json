@@ -1,16 +1,16 @@
 {
     "data": [
         {
-            "title": "NUSMods",
+            "title": "BestFit Demo Parser",
             "screenshots": [
                 "/src/images/phoyo_circle.png",
                 "images/nusmods-2.jpg"
             ],
-            "description": "<p><strong><a href='http://nusmods.com' target='_blank'>NUSMods</a></strong> provides students with a better way to plan their school timetables with a user-friendly timetable builder and also serves to be a complete knowledge bank of NUS modules by providing useful module-related information such as archived NUS CORS bidding statistics and community-driven module reviews and discussions.</p>",
+            "description": "<p><strong><a href='http://bestfitparserdev.infolytx.net' target='_blank'>BestFit Parser Demo</a></strong>is a AI based solution where candidates and employeer get the most our of AI technology, It parse the CV and rank them based on Job Description</p>",
             "tags": [
-                "BackboneJS",
-                "MarionetteJS",
-                "d3.js"
+                "ReactJS",
+                "Python",
+                "AI"
             ]
         },
         {
