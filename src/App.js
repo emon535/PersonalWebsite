@@ -9,13 +9,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
       </header>
       <div className="App-body">
         <br></br>
-        Welcome <code>to</code> my Site.
-          <br></br>
-        <small>Download the <a href={cv}>CV </a></small>
         <Protfollio />
         <About />
       </div>
