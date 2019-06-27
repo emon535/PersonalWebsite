@@ -25,7 +25,7 @@ class Protfollio extends Component {
 
   _getTags(data) {
     return data.tags.map(tag => {
-      return <div className="tag">{tag} </div>;
+      return <a className="tag">{tag} </a>;
     });
   }
 
