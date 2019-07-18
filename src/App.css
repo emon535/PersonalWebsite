@@ -1,5 +1,15 @@
 .App {
-  text-align: center;
+ 
+}
+
+.App-body {
+  position: relative;
+  border: 8px solid #494c4e;
+}
+
+.prot-container {
+  width: 60%;
+  margin: auto;
 }
 
 .App-link {

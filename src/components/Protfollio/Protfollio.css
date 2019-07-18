@@ -1,27 +1,10 @@
-.work-block {
-  margin: 1em 2em 2em 2em;
-}
-
-.work-item-card {
-  background-color: rgb(250, 250, 250) !important;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  border-color: rgb(210, 211, 211) !important;
-}
 
 .work-description {
   line-height: 1.5em;
   height: 6em;
   overflow: hidden;
   text-align: left;
-}
-
-.work-description:after {
-  content: "";
-}
-
-.work-item-col {
-  padding: 1em;
+  visibility: hidden;
 }
 
 .see-button {
@@ -62,21 +45,26 @@
   border-radius: 1px !important;
 }
 
-.card-header {
-  background: rgb(250, 250, 250) !important;
-}
-.card-footer {
-  padding-bottom: 0px !important;
-  background: rgb(250, 250, 250) !important;
+.work-item-col:hover .work-description {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+  position: relative;
 }
 
 .work-image {
   width: 100%;
 }
 
+.work-image:hover .work-description {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+}
+
 .tag {
-  border: solid 1px silver;
-  border-radius: 5px;
-  padding: 7px;
-  margin: 2px;
+  border: solid 1.5px silver;
+  padding: 2px;
+  color:silver;
+  margin-left: 2px;
 }
