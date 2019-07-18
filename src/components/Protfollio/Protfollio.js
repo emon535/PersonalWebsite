@@ -34,7 +34,7 @@ class Protfollio extends Component {
                 //     eachWork.description.substr(0, 100) + "..."
                 //     : eachWork.description;
                 return (
-                    <Col sm={3} className="work-item-col">
+                    <Col sm={6} className="work-item-col">
                         <Card body className="work-item-card shadow-sm p-3" >
                             <CardHeader className="card-header">
                                 {eachWork.title}
@@ -61,7 +61,7 @@ class Protfollio extends Component {
                 <div className="work-block">
                     <Row>
                         <Col>
-                            <h3>My Works</h3>
+                            <h3>Check My Works</h3> or Download my CV
                             <hr></hr>
                         </Col>
                     </Row>

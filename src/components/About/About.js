@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import my_photo from "./../../images/photo_grayscale.jpg";
+import my_photo from "./../../images/photo.png";
 import { Row, Col } from "reactstrap";
 import ABOUT_DATA from "./../../constants/about_data";
 import "./About.css";
@@ -21,7 +21,7 @@ export default class About extends Component {
                 <a target="_blank" href={ABOUT_DATA.facebook}>
                   <FaFacebook className="icons" />
                 </a>
-                <a  target="_blank" href={ABOUT_DATA.github}>
+                <a target="_blank" href={ABOUT_DATA.github}>
                   <FaGithub className="icons" />
                 </a>
                 <a target="_blank" href={ABOUT_DATA.hackerRank}>
