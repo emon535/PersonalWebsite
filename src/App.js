@@ -8,11 +8,13 @@ function App() {
   return (
     <div className="App">
       <div className="App-body">
-        <br></br>
-        <Protfollio />
+        <div className="prot-container">
+          <Protfollio />
+        </div>
+        <br />
         <About />
       </div>
-    </div >
+    </div>
   );
 }
 

@@ -4,7 +4,13 @@ import { Row, Col } from "reactstrap";
 import ABOUT_DATA from "./../../constants/about_data";
 import "./About.css";
 import { IconContext } from "react-icons";
-import { FaLinkedin, FaFacebook, FaGithub, FaHackerrank, FaNewspaper } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaFacebook,
+  FaGithub,
+  FaHackerrank,
+  FaNewspaper
+} from "react-icons/fa";
 
 export default class About extends Component {
   _getSocial() {
