@@ -31,7 +31,7 @@ ul {
   padding: 0.5em;
 }
 
-img {
+.image-brand img {
   border: solid 10px #5f5c6e !important;
   border-radius: 50%;
   width: 50%;

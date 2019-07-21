@@ -15,30 +15,27 @@ export default class About extends Component {
   _getSocial() {
     return (
       <Row className="social">
-        <Col>
-          <IconContext.Provider value={{ size: "2em" }}>
-            <Row>
-              <h5 className="icons-heading">Checkout the social links:</h5>
-              <Col>
-                <a target="_blank" href={ABOUT_DATA.linkedin}>
-                  <FaLinkedin className="icons" />
-                </a>
-                <a target="_blank" href={ABOUT_DATA.facebook}>
-                  <FaFacebook className="icons" />
-                </a>
-                <a target="_blank" href={ABOUT_DATA.github}>
-                  <FaGithub className="icons" />
-                </a>
-                <a target="_blank" href={ABOUT_DATA.hackerRank}>
-                  <FaHackerrank className="icons" />
-                </a>
-                <a target="_blank" href={ABOUT_DATA.news}>
-                  <FaNewspaper className="icons" />
-                </a>
-              </Col>
-            </Row>
-          </IconContext.Provider>
-        </Col>
+        <IconContext.Provider value={{ size: "3em" }}>
+          <Row>
+            <Col>
+              <a target="_blank" href={ABOUT_DATA.linkedin}>
+                <FaLinkedin className="icons" />
+              </a>
+              <a target="_blank" href={ABOUT_DATA.facebook}>
+                <FaFacebook className="icons" />
+              </a>
+              <a target="_blank" href={ABOUT_DATA.github}>
+                <FaGithub className="icons" />
+              </a>
+              <a target="_blank" href={ABOUT_DATA.hackerRank}>
+                <FaHackerrank className="icons" />
+              </a>
+              <a target="_blank" href={ABOUT_DATA.news}>
+                <FaNewspaper className="icons" />
+              </a>
+            </Col>
+          </Row>
+        </IconContext.Provider>
       </Row>
     );
   }
@@ -47,10 +44,19 @@ export default class About extends Component {
       <React.Fragment>
         <div className="about">
           <Col className="about-description">
-            <h5>Hello, I am {ABOUT_DATA.Name} !</h5>
-            <small>{ABOUT_DATA.coverLetter}</small>
+            <Row className="about-body">
+              <h1 className="disp">
+                FOYSAL AHMED <span>EMON</span>
+              </h1>
+              <h3>
+                190 EAST KAZIPARA, KAFRUL, DHAKA <br /> (+880) 1520100178
+                <br /> <span>EMON535@GMAIL.COM</span>
+              </h3>
+              <h5>{ABOUT_DATA.coverLetter}</h5>
+              <hr />
+            </Row>
+
             {this._getSocial()}
-            <hr />
           </Col>
         </div>
       </React.Fragment>

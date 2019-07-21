@@ -18,7 +18,7 @@ export default class Menu extends Component {
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={50}
+            offset={0}
             duration={500}
             delay={0}
             isDynamic={true}
@@ -36,7 +36,7 @@ export default class Menu extends Component {
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={-100}
+            offset={0}
             duration={500}
             delay={0}
             isDynamic={true}
@@ -54,7 +54,7 @@ export default class Menu extends Component {
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={50}
+            offset={0}
             duration={500}
             delay={0}
             isDynamic={true}
@@ -72,7 +72,7 @@ export default class Menu extends Component {
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={50}
+            offset={0}
             duration={500}
             delay={0}
             isDynamic={true}
@@ -90,7 +90,7 @@ export default class Menu extends Component {
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={50}
+            offset={0}
             duration={500}
             delay={0}
             isDynamic={true}
@@ -108,7 +108,7 @@ export default class Menu extends Component {
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={50}
+            offset={0}
             duration={500}
             delay={0}
             isDynamic={true}

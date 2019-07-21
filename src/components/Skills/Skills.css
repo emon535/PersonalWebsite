@@ -1,4 +1,16 @@
 .skills {
   height: 100vh;
-  background: mediumpurple;
+  /* background: mediumpurple; */
+}
+
+h1 {
+  color: #343a40;
+  font-size: 6rem !important;
+  line-height: 5.5rem !important;
+}
+
+h1 span {
+  font-size: 6rem !important;
+  line-height: 5.5rem !important;
+  color: rgb(134, 134, 156) !important;
 }
