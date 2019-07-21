@@ -6,6 +6,8 @@ import About from "./components/About/About";
 import Menu from "./components/SideMenu/Menu";
 import { Row, Col } from "reactstrap";
 import Education from "./components/Education/Education";
+import Experiences from "./components/Experience/Experiences";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
           </Col>
           <Col sm={9}>
             <About />
+            <Experiences />
             <Education />
+            <Skills />
             <Protfollio />
           </Col>
         </Row>
