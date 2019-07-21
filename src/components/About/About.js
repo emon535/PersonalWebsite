@@ -45,7 +45,7 @@ export default class About extends Component {
   }
   render() {
     return (
-      <React.Fragment>
+      <React.Fragment id="about">
         <div className="about-me">
           <Row>
             <Col sm={4}>

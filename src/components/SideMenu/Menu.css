@@ -1,0 +1,15 @@
+li {
+  display: inline;
+  padding: 5px;
+  margin: 3px;
+  background: grey;
+  color: white;
+  cursor: pointer;
+}
+
+li :hover {
+  display: inline;
+  padding: 5px;
+  border: solid black 0 0 2px 0;
+  cursor: pointer;
+}
