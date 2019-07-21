@@ -1,15 +1,38 @@
-li {
-  display: inline;
+ul {
   padding: 5px;
   margin: 3px;
-  background: grey;
-  color: white;
   cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
 }
 
-li :hover {
-  display: inline;
-  padding: 5px;
-  border: solid black 0 0 2px 0;
+.active {
   cursor: pointer;
+  color: #e61fe6 !important;
+}
+
+.link {
+  color: rgb(134, 134, 156) !important;
+}
+.menu {
+  text-align: center;
+  display: block;
+  background: #444250;
+  width: 25%;
+  height: 100vh;
+  position: fixed;
+}
+
+.image-brand {
+  width: 100%;
+  margin-top: 100px !important;
+  margin: auto auto 0;
+  padding: 0.5em;
+}
+
+img {
+  border: solid 10px #5f5c6e !important;
+  border-radius: 50%;
+  width: 50%;
 }

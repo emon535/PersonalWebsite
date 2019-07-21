@@ -39,20 +39,16 @@ class Protfollio extends Component {
       //     eachWork.description.substr(0, 100) + "..."
       //     : eachWork.description;
       return (
-        <Col sm={6} className="work-item-col">
+        <Col sm={4} className="work-item-col">
           <Card body className="work-item-card shadow-sm p-3">
             <img
               className="work-image"
               src="https://source.unsplash.com/300x150/?it,code"
             />
             <CardBody>
-              <hr />
-
               {eachWork.title}
               {this._getTags(eachWork)}
-              <Button className="see-button">
-                <span>Visit</span>
-              </Button>
+              <a>See more</a>
             </CardBody>
           </Card>
         </Col>
@@ -60,19 +56,10 @@ class Protfollio extends Component {
     });
   }
 
-  // const description = eachWork.description && eachWork.description.length >= 200 ?
-  //     eachWork.description.substr(0, 100) + "..."
-
   render() {
     return (
       <React.Fragment>
-        <div className="work-block">
-          <Row>
-            <Col>
-              <h3>Check My Works</h3> or Download my CV
-              <hr />
-            </Col>
-          </Row>
+        <div className="projects">
           <Row>{this._getWorks(this.state.work_data)}</Row>
         </div>
       </React.Fragment>

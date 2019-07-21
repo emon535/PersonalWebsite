@@ -1,13 +1,8 @@
 .protfollio {
   height: 100vh;
-  background-color: skyblue;
-}
-
-.work-item-card {
-  background-color: rgb(250, 250, 250) !important;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  border-color: rgb(210, 211, 211) !important;
+  width: 80%;
+  align-content: center;
+  margin: 0 auto;
 }
 
 .work-description {
@@ -15,12 +10,10 @@
   height: 6em;
   overflow: hidden;
   text-align: left;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .see-button {
-  color: rgb(255, 255, 255) !important;
-  background: rgb(57, 20, 116) !important;
   border-radius: 0px !important;
   transition: all 0.5s;
 }
@@ -56,21 +49,8 @@
   border-radius: 1px !important;
 }
 
-.work-item-col:hover .work-description {
-  visibility: visible;
-  opacity: 1;
-  cursor: pointer;
-  position: relative;
-}
-
 .work-image {
   width: 100%;
-}
-
-.work-image:hover .work-description {
-  visibility: visible;
-  opacity: 1;
-  position: absolute;
 }
 
 .tag {

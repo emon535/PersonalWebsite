@@ -1,10 +1,8 @@
 .App {
- 
 }
 
 .App-body {
   position: relative;
-  border: 8px solid #494c4e;
 }
 
 .prot-container {
@@ -28,4 +26,3 @@
 a {
   color: #61dafb;
 }
-

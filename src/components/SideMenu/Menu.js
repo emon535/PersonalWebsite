@@ -1,30 +1,18 @@
 import React, { Component } from "react";
 import "./Menu.css";
 import { Link } from "react-scroll";
+import my_photo from "./../../images/photo.png";
 
 export default class Menu extends Component {
   render() {
     return (
       <div className="menu">
+        <div className="image-brand">
+          <img src={my_photo} />
+        </div>
         <ul>
           <Link
-            activeClass="active"
-            to="homepage"
-            spy={true}
-            smooth={true}
-            hashSpy={true}
-            offset={50}
-            duration={500}
-            delay={1000}
-            isDynamic={true}
-            onSetActive={this.handleSetActive}
-            onSetInactive={this.handleSetInactive}
-            ignoreCancelEvents={false}
-          >
-            Welcome
-          </Link>
-
-          <Link
+            className="link"
             activeClass="active"
             to="about"
             spy={true}
@@ -32,48 +20,105 @@ export default class Menu extends Component {
             hashSpy={true}
             offset={50}
             duration={500}
-            delay={1000}
+            delay={0}
             isDynamic={true}
             onSetActive={this.handleSetActive}
             onSetInactive={this.handleSetInactive}
             ignoreCancelEvents={false}
           >
-            About
+            ABOUT
           </Link>
-
+          <br />
           <Link
-            activeClass="protfollio"
-            to="target"
-            spy={true}
-            smooth={true}
-            hashSpy={true}
-            offset={50}
-            duration={500}
-            delay={1000}
-            isDynamic={true}
-            onSetActive={this.handleSetActive}
-            onSetInactive={this.handleSetInactive}
-            ignoreCancelEvents={false}
-          >
-            Academy
-          </Link>
-
-          <Link
+            className="link"
             activeClass="active"
-            to="target"
+            to="experience"
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={50}
+            offset={-100}
             duration={500}
-            delay={1000}
+            delay={0}
             isDynamic={true}
             onSetActive={this.handleSetActive}
             onSetInactive={this.handleSetInactive}
             ignoreCancelEvents={false}
           >
-            Projects
+            EXPERIENCE
           </Link>
+          <br />
+          <Link
+            className="link"
+            activeClass="active"
+            to="education"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={50}
+            duration={500}
+            delay={0}
+            isDynamic={true}
+            onSetActive={this.handleSetActive}
+            onSetInactive={this.handleSetInactive}
+            ignoreCancelEvents={false}
+          >
+            EDUCATION
+          </Link>
+          <br />
+          <Link
+            className="link"
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={50}
+            duration={500}
+            delay={0}
+            isDynamic={true}
+            onSetActive={this.handleSetActive}
+            onSetInactive={this.handleSetInactive}
+            ignoreCancelEvents={false}
+          >
+            SKILLS
+          </Link>
+          <br />
+          <Link
+            className="link"
+            activeClass="active"
+            to="interest"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={50}
+            duration={500}
+            delay={0}
+            isDynamic={true}
+            onSetActive={this.handleSetActive}
+            onSetInactive={this.handleSetInactive}
+            ignoreCancelEvents={false}
+          >
+            INTERESTS
+          </Link>
+          <br />
+          <Link
+            className="link"
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={50}
+            duration={500}
+            delay={0}
+            isDynamic={true}
+            onSetActive={this.handleSetActive}
+            onSetInactive={this.handleSetInactive}
+            ignoreCancelEvents={false}
+          >
+            PROJECTS
+          </Link>
+          <br />
         </ul>
       </div>
     );

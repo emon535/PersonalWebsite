@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import my_photo from "./../../images/photo.png";
 import { Row, Col } from "reactstrap";
 import ABOUT_DATA from "./../../constants/about_data";
 import "./About.css";
@@ -47,9 +46,6 @@ export default class About extends Component {
     return (
       <React.Fragment>
         <div className="about">
-          <Col sm={4}>
-            <img src={my_photo} />
-          </Col>
           <Col className="about-description">
             <h5>Hello, I am {ABOUT_DATA.Name} !</h5>
             <small>{ABOUT_DATA.coverLetter}</small>

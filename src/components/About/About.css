@@ -1,6 +1,8 @@
 .about {
+  margin-top: 20%;
   height: 100vh;
-  background-color: grey;
+  max-width: 75rem;
+  display: block;
 }
 
 .about-me {
@@ -14,8 +16,6 @@
 }
 
 .about-description {
-  color: white;
-  margin: 2em;
   text-align: left;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .social a {
-  color: white;
+  color: rgb(53, 53, 53);
 }
 
 .social a:hover {
@@ -38,8 +38,4 @@
 
 .icons-heading {
   margin-top: 2em;
-}
-
-.about-me-heading {
-  color: aliceblue;
 }
