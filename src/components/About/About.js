@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import my_photo from "./../../images/phoyo_circle.png";
+import my_photo from "./../../images/photo.png";
 import { Row, Col } from "reactstrap";
 import ABOUT_DATA from "./../../constants/about_data";
 import "./About.css";

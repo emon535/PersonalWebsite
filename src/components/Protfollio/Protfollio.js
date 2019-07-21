@@ -10,6 +10,7 @@ import {
   CardText,
   Button
 } from "reactstrap";
+
 import data from "./../../resources/data.json";
 import "./Protfollio.css";
 import image from "./../../images/prot1.jpeg";
@@ -38,39 +39,37 @@ class Protfollio extends Component {
       //     eachWork.description.substr(0, 100) + "..."
       //     : eachWork.description;
       return (
-        <Col sm={3} className="work-item-col">
+        <Col sm={6} className="work-item-col">
           <Card body className="work-item-card shadow-sm p-3">
-            <CardHeader className="card-header">{eachWork.title}</CardHeader>
+            <img
+              className="work-image"
+              src="https://source.unsplash.com/300x150/?it,code"
+            />
             <CardBody>
-              <img
-                className="work-image"
-                src="https://source.unsplash.com/300x150/?it,code"
-              />
               <hr />
-              <CardText
-                className="work-description"
-                dangerouslySetInnerHTML={{ __html: description }}
-              />
+
+              {eachWork.title}
               {this._getTags(eachWork)}
-            </CardBody>
-            <CardFooter className="card-footer">
               <Button className="see-button">
                 <span>Visit</span>
               </Button>
-            </CardFooter>
+            </CardBody>
           </Card>
         </Col>
       );
     });
   }
 
+  // const description = eachWork.description && eachWork.description.length >= 200 ?
+  //     eachWork.description.substr(0, 100) + "..."
+
   render() {
     return (
       <React.Fragment>
-        <div className="protfollio">
+        <div className="work-block">
           <Row>
             <Col>
-              <h3>My Works</h3>
+              <h3>Check My Works</h3> or Download my CV
               <hr />
             </Col>
           </Row>
