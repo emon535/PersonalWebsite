@@ -45,19 +45,17 @@ export default class About extends Component {
   }
   render() {
     return (
-      <React.Fragment id="about">
-        <div className="about-me">
-          <Row>
-            <Col sm={4}>
-              <img src={my_photo} />
-            </Col>
-            <Col className="about-description">
-              <h5>Hello, I am {ABOUT_DATA.Name} !</h5>
-              <small>{ABOUT_DATA.coverLetter}</small>
-              {this._getSocial()}
-              <hr />
-            </Col>
-          </Row>
+      <React.Fragment>
+        <div className="about">
+          <Col sm={4}>
+            <img src={my_photo} />
+          </Col>
+          <Col className="about-description">
+            <h5>Hello, I am {ABOUT_DATA.Name} !</h5>
+            <small>{ABOUT_DATA.coverLetter}</small>
+            {this._getSocial()}
+            <hr />
+          </Col>
         </div>
       </React.Fragment>
     );

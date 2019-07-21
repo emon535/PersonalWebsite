@@ -9,7 +9,7 @@ export default class Menu extends Component {
         <ul>
           <Link
             activeClass="active"
-            to="target"
+            to="homepage"
             spy={true}
             smooth={true}
             hashSpy={true}
@@ -42,7 +42,7 @@ export default class Menu extends Component {
           </Link>
 
           <Link
-            activeClass="active"
+            activeClass="protfollio"
             to="target"
             spy={true}
             smooth={true}

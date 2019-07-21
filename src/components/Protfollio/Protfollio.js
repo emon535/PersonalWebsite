@@ -66,8 +66,8 @@ class Protfollio extends Component {
 
   render() {
     return (
-      <React.Fragment id="protfollio">
-        <div className="work-block">
+      <React.Fragment>
+        <div className="protfollio">
           <Row>
             <Col>
               <h3>My Works</h3>

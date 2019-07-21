@@ -12,8 +12,8 @@ function App() {
       <div className="App-body">
         <br />
         <Menu />
-        <Protfollio />
         <About />
+        <Protfollio />
       </div>
     </div>
   );
