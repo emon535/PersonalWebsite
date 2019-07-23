@@ -86,24 +86,6 @@ export default class Menu extends Component {
           <Link
             className="link"
             activeClass="active"
-            to="interest"
-            spy={true}
-            smooth={true}
-            hashSpy={true}
-            offset={0}
-            duration={500}
-            delay={0}
-            isDynamic={true}
-            onSetActive={this.handleSetActive}
-            onSetInactive={this.handleSetInactive}
-            ignoreCancelEvents={false}
-          >
-            INTERESTS
-          </Link>
-          <br />
-          <Link
-            className="link"
-            activeClass="active"
             to="projects"
             spy={true}
             smooth={true}

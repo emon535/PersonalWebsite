@@ -5,6 +5,10 @@
   position: relative;
 }
 
+body {
+  color: #868e96;
+}
+
 .prot-container {
   width: 60%;
   margin: auto;

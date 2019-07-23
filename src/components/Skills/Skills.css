@@ -3,14 +3,28 @@
   /* background: mediumpurple; */
 }
 
-h1 {
+.skills > h1 {
+  text-transform: uppercase;
   color: #343a40;
-  font-size: 6rem !important;
+  font-size: 4rem !important;
   line-height: 5.5rem !important;
 }
 
-h1 span {
-  font-size: 6rem !important;
+.skills > h1 span {
+  font-size: 4rem !important;
   line-height: 5.5rem !important;
   color: rgb(134, 134, 156) !important;
+}
+
+.sub-head > h3 {
+  text-transform: uppercase;
+  margin-left: 2em;
+}
+
+.icons {
+  color: grey;
+}
+
+.icons :hover {
+  color: #5f5c6e (110, 94, 94);
 }
