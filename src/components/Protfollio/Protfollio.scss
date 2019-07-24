@@ -1,5 +1,7 @@
+$height : 100vh;
+
 .protfollio {
-  height: 100vh;
+  height: $height;
   width: 80%;
   align-content: center;
   margin: 0 auto;
@@ -38,6 +40,10 @@
   padding-right: 25px;
 }
 
+.see-button {
+  padding-right: 20px;
+  
+}
 .see-button:hover span:after {
   opacity: 1;
   right: 0;
