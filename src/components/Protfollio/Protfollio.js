@@ -12,7 +12,7 @@ import {
 } from "reactstrap";
 
 import data from "./../../resources/data.json";
-import "./Protfollio.css";
+import "./Protfollio.scss";
 import image from "./../../images/prot1.jpeg";
 
 class Protfollio extends Component {
