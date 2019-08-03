@@ -1,24 +1,9 @@
 .skills {
+  margin-top: 10%;
   height: 100vh;
-  /* background: mediumpurple; */
-}
-
-.skills > h1 {
-  text-transform: uppercase;
-  color: #343a40;
-  font-size: 4rem !important;
-  line-height: 5.5rem !important;
-}
-
-.skills > h1 span {
-  font-size: 4rem !important;
-  line-height: 5.5rem !important;
-  color: rgb(134, 134, 156) !important;
-}
-
-.sub-head > h3 {
-  text-transform: uppercase;
-  margin-left: 2em;
+  max-width: 75rem;
+  display: block;
+  margin-left: 1em;
 }
 
 .icons {

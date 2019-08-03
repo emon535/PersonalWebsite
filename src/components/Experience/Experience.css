@@ -1,10 +1,16 @@
 .experience {
+  margin-top: 10%;
   height: 100vh;
-  /* background: rgb(98, 59, 172); */
+  max-width: 75rem;
   display: block;
+  margin-left: 1em;
 }
 
 h1 {
   color: #343a40;
   font-size: 100px;
+}
+
+.experience-body {
+  margin-left: 1em;
 }

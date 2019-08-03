@@ -7,6 +7,7 @@
   display: block;
   margin-left: 1em;
 }
+
 h1 {
   color: #343a40;
   font-size: 6rem !important;
@@ -51,8 +52,4 @@ h3 span {
 
 .icons:hover {
   color: rgb(134, 134, 156) !important;
-}
-
-.about-description {
-  padding-left: 1em;
 }
