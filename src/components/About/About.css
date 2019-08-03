@@ -5,6 +5,7 @@
   height: 100vh;
   max-width: 75rem;
   display: block;
+  margin-left: 1em;
 }
 h1 {
   color: #343a40;
@@ -34,10 +35,6 @@ h3 span {
   font-weight: 1000;
 }
 
-.about-body {
-  margin-left: 2em;
-  padding: 2em;
-}
 .social a {
   color: #343a40;
 }
@@ -50,4 +47,12 @@ h3 span {
   margin-left: 2em;
   margin-top: 2em;
   cursor: pointer;
+}
+
+.icons:hover {
+  color: rgb(134, 134, 156) !important;
+}
+
+.about-description {
+  padding-left: 1em;
 }

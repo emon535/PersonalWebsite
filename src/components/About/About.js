@@ -57,8 +57,7 @@ export default class About extends Component {
                 <hr />
               </Col>
             </Row>
-
-            {this._getSocial()}
+            <Row>{this._getSocial()}</Row>
           </Col>
         </div>
       </React.Fragment>
