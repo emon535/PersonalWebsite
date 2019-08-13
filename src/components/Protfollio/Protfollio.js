@@ -60,7 +60,7 @@ class Protfollio extends Component {
     return (
       <React.Fragment>
         <div className="projects">
-          <h1>Experiences</h1>
+          <h1 className="disp">PROJECTS</h1>
           <Row>{this._getWorks(this.state.work_data)}</Row>
         </div>
       </React.Fragment>

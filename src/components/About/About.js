@@ -8,7 +8,8 @@ import {
   FaFacebook,
   FaGithub,
   FaHackerrank,
-  FaNewspaper
+  FaNewspaper,
+  FaCodepen
 } from "react-icons/fa";
 
 export default class About extends Component {
@@ -16,7 +17,7 @@ export default class About extends Component {
     return (
       <Row className="social">
         <IconContext.Provider value={{ size: "3em" }}>
-          <Row>
+          <Row className="social-row">
             <Col>
               <a target="_blank" href={ABOUT_DATA.linkedin}>
                 <FaLinkedin className="icons" />
@@ -32,6 +33,9 @@ export default class About extends Component {
               </a>
               <a target="_blank" href={ABOUT_DATA.news}>
                 <FaNewspaper className="icons" />
+              </a>
+              <a target="_blank" href={ABOUT_DATA.codepen}>
+                <FaCodepen className="icons" />
               </a>
             </Col>
           </Row>

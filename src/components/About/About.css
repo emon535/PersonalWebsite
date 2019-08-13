@@ -53,3 +53,7 @@ h3 span {
 .icons:hover {
   color: rgb(134, 134, 156) !important;
 }
+
+.social-row {
+  margin-left: 0px !important;
+}

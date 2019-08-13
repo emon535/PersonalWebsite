@@ -8,6 +8,7 @@ export default {
   github: "https://github.com/emon535",
   stackOverflow: "https://stackoverflow.com/users/4543926/foysal-ahmed-emon",
   hackerRank: "https://www.hackerrank.com/emon535",
+  codepen:"https://codepen.io/emon535/",
   news:
     "https://media.licdn.com/media-proxy/ext?w=1848&h=1296&f=n&hash=/MXXmo7wVTPOAcJ49KGssGkSxe8%3D&ora=1,aFBCTXdkRmpGL2lvQUFBPQ,xAVta9Er0Ua9hFUfyR0t5byKrEGk7EgJRo3RTWHiGHDuucrTPymtLJmbOq2jpFweZy4BkQwvf-q1QTL-Qczib9-xObM71Mi4O86xcRQ5O0xn3SQfuZxqayZxisXyOum-aj5J"
 };
