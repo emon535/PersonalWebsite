@@ -35,7 +35,7 @@ export default class Skills extends Component {
           <Row>
             <Col>
               <IconContext.Provider value={{ size: "3em" }}>
-                <FaHtml5 className="icons" />
+                <FaHtml5 className="icons" id="html" />
                 <FaCss3 className="icons" />
                 <FaCss3Alt className="icons" />
                 <FaJsSquare className="icons" />
