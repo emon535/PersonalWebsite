@@ -20,4 +20,9 @@ h1 span {
 
 .uni-logo img {
   max-width: 100px;
+  filter: grayscale(100%);
+}
+
+.uni-logo img:hover {
+  filter: grayscale(70%);
 }

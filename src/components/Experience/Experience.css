@@ -10,3 +10,13 @@ h1 {
   color: #343a40;
   font-size: 100px;
 }
+
+.work-logo img {
+  max-width: 140px;
+  filter: grayscale(100%);
+}
+
+.work-logo img:hover {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  filter: grayscale(70%);
+}
