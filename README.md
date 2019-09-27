@@ -1,8 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Personal Website
+My Personal website made with ReactJS.
 
-In the project directory, you can run:
+if you want to run the project in your machine, please follow
 
 ### `npm start`
 
